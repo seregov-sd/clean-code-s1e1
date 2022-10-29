@@ -5,30 +5,30 @@ body {
     font-family: Lato, sans-serif;
 }
 
-.aaa {
+.header {
     width: 500px;
     margin: 0 auto;
     display: block;
     text-align: right;
 }
 
-.aaa__img {
+.header__img {
     width: 100%;
 }
 
-.aaa .more_inf {
+.header .header__link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-    .aaa {
+    .header {
         text-align: center;
     }
 
 }
 
-.centered-main-page-element {
+.main {
     display: block;
     width: 500px;
     margin: 0 auto 0;
@@ -40,7 +40,7 @@ body {
     flex-grow: 1;
 }
 
-.task-row-wrapper {
+.task-wrapper {
     display: flex;
 }
 
@@ -103,7 +103,7 @@ h3 {
 }
 
 /* New Task */
-.new-task {
+.title-add-task {
     margin: 0 0 20px;
 }
 
@@ -125,7 +125,7 @@ h3 {
     vertical-align: middle;
 }
 
-.list-item > .input-checkbox {
+.list-item > .checkbox {
     margin: 0 10px;
 }
 
@@ -140,13 +140,13 @@ h3 {
     width: 226px;
 }
 
-.btn-delete .btn__img {
+.btn-delete .img-btn {
     height: 2em;
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
 
-.btn-delete .btn__img:hover {
+.btn-delete .img-btn:hover {
     transform: rotateZ(0);
 }
 
